@@ -38,6 +38,7 @@ ul{
 .log{
     flex-basis: 25%;
     border: 2px dashed black;
+    padding: var(--space);
 }
 
 .log.list{
