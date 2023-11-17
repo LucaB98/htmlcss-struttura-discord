@@ -14,7 +14,6 @@
 
 header{
     background-color: lightblue;
-    height: 100px;
 }
 
 .container{
@@ -26,7 +25,8 @@ header{
 .flex-container{
     background-color: goldenrod;
     display: flex;
-    margin-top: var(--space);
+    width: 1000px;
+    margin: var(--space);
 }
 
 ul{
