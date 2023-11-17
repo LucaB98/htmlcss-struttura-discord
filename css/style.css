@@ -6,6 +6,9 @@
 }
 
 /*UTILS*/
+body{
+    font-family: Arial, Helvetica, sans-serif
+}
 
 :root{
     --space: 15px;
@@ -88,4 +91,48 @@ ul{
     width: 100%;
     height: 900px;
     border: 2px dashed black;
+}
+
+.box-black{
+    background-color: rgb(29, 28, 28);
+    padding: 30px;
+    border-bottom: 2px solid white;
+}
+
+.box-purple{
+    background-color: purple;
+    width: 30%;
+    height: 500px;
+    border: 2px dashed black;
+}
+
+.box-aqua{
+    background-color: aqua;
+    width: 70%;
+    height: 500px;
+    border: 2px dashed black;
+    display: flex;
+}
+
+.col{
+    width: 25%;
+    border: 2px dashed white;
+    height: 100%;
+}
+
+.footer-nav{
+    background-color: aquamarine;
+    width: 100%;
+    height: 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn{
+    border: 2px dashed black;
+    height: 50%;
+    padding: 10px;
+    background-color: blueviolet;
+    line-height: 100%;
 }
