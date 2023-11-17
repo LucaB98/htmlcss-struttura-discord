@@ -44,3 +44,21 @@ ul{
 .log.list{
     flex-basis: 50%;
 }
+
+.box{
+  background-color: rgb(1, 1, 167);
+  padding: 30px;
+}
+
+.content{
+    max-width: 750px;
+    height: 300px;
+    background-color: rgb(217, 136, 255);
+    margin: 0px auto;
+    border: 2px dashed black;
+}
+
+.box-grey{
+    background-color: rgb(175, 175, 175);
+    padding: 30px;
+  }
