@@ -11,12 +11,11 @@ body{
 }
 
 :root{
-    --space: 15px;
-}
-
-
-header{
-    background-color: lightblue;
+    --space-s: 10px;
+    --space-m: 15px;
+    --space-l: 30px;
+    /*border*/
+    --line: 2px dashed black;
 }
 
 .container{
@@ -25,11 +24,16 @@ header{
     display: flex;
 }
 
+/*HEADER*/
+header{
+    background-color: lightblue;
+}
+
 .flex-container{
     background-color: goldenrod;
     display: flex;
     width: 1000px;
-    margin: var(--space);
+    margin: var(--space-m);
 }
 
 ul{
@@ -40,8 +44,8 @@ ul{
 
 .log{
     flex-basis: 25%;
-    border: 2px dashed black;
-    padding: var(--space);
+    border: var(--line);
+    padding: var(--space-m);
 }
 
 .log.list{
@@ -58,17 +62,19 @@ ul{
     height: 300px;
     background-color: rgb(217, 136, 255);
     margin: 0px auto;
-    border: 2px dashed black;
+    border: var(--line);
 }
+
+/*MAIN*/
 
 .box-white{
     background-color: #fff;
-    padding: 30px;
+    padding: var(--space-l);
   }
 
 .box-grey{
     background-color: rgb(175, 175, 175);
-    padding: 30px;
+    padding: var(--space-l);
 }
 
 
@@ -76,26 +82,28 @@ ul{
     background-color: skyblue;
     width: 70%;
     height: 400px;
-    border: 2px dashed black;
+    border: var(--line);
 }
 
 .box-pink{
     background-color: pink;
     width: 30%;
     height: 400px;
-    border: 2px dashed black;
+    border: var(--line);
 }
 
 .box-green{
     background-color: rgb(0, 122, 31);
     width: 100%;
     height: 900px;
-    border: 2px dashed black;
+    border: var(--line);
 }
+
+/*FOOTER*/
 
 .box-black{
     background-color: rgb(29, 28, 28);
-    padding: 30px;
+    padding: var(--space-l);
     border-bottom: 2px solid white;
 }
 
@@ -103,14 +111,14 @@ ul{
     background-color: purple;
     width: 30%;
     height: 500px;
-    border: 2px dashed black;
+    border: var(--line);
 }
 
 .box-aqua{
     background-color: aqua;
     width: 70%;
     height: 500px;
-    border: 2px dashed black;
+    border: var(--line);
     display: flex;
 }
 
@@ -130,9 +138,9 @@ ul{
 }
 
 .btn{
-    border: 2px dashed black;
+    border: var(--line);
     height: 50%;
-    padding: 10px;
+    padding: var(--space-s);
     background-color: blueviolet;
     line-height: 100%;
 }
